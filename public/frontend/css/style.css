@@ -6477,19 +6477,19 @@ body.rtl .btn-group .btn:first-child {
 }
 
 /* Button and Link Font Inheritance */
-.btn:not([class*='fa-']):not(.btn-icon),
-button:not([class*='fa-']):not(.btn-icon) {
+.btn:not([class*='fa-'], .btn-icon),
+button:not([class*='fa-'], .btn-icon) {
 	font-family: inherit !important;
 }
 
-a:not([class*='fa-']):not([class*='icon-']):not(.btn-icon) {
+a:not([class*='fa-'], [class*='icon-'], .btn-icon) {
 	font-family: inherit !important;
 }
 
 /* Form Elements Font Inheritance */
 .form-control,
 .form-select,
-input:not([type='checkbox']):not([type='radio']),
+input:not([type='checkbox'], [type='radio']),
 textarea,
 select {
 	font-family: inherit !important;
