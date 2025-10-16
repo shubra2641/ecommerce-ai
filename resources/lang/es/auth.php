@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'failed' => 'Estas credenciales no coinciden con nuestros registros.',
+    'password' => 'La contraseña proporcionada es incorrecta.',
+    'throttle' => 'Demasiados intentos de inicio de sesión. Por favor, inténtelo de nuevo en :seconds segundos.',
+    // UI translations for auth views
+    'title_login' => 'E-SHOP || Iniciar sesión',
+    'welcome_back' => '¡Bienvenido de nuevo!',
+    'enter_email' => 'Introduce la dirección de correo...',
+    'remember_me' => 'Recuérdame',
+    'login' => 'Iniciar sesión',
+    'forgot_password_question' => '¿Olvidaste tu contraseña?',
+    'register' => 'Registrarse',
+    'name' => 'Nombre',
+    'email_address' => 'Correo electrónico',
+    'confirm_password' => 'Confirmar contraseña',
+    'verify_email' => 'Verifica tu dirección de correo',
+    'verification_sent' => 'Se ha enviado un nuevo enlace de verificación a tu dirección de correo.',
+    'before_check_email' => 'Antes de continuar, revisa tu correo para el enlace de verificación.',
+    'if_not_received' => 'Si no recibiste el correo',
+    'click_request_another' => 'haz clic aquí para solicitar otro',
+    'title_forgot_password' => 'E-SHOP || Recuperar contraseña',
+    'forgot_password' => '¿Olvidaste tu contraseña?',
+    'forgot_password_instructions' => 'No te preocupes — introduce tu correo y te enviaremos un enlace para restablecerla.',
+    'already_have_account' => '¿Ya tienes una cuenta? ¡Inicia sesión!',
+    'please_confirm_password' => 'Por favor confirma tu contraseña antes de continuar.',
+    'reset_password' => 'Restablecer contraseña',
+    'send_password_reset_link' => 'Enviar enlace para restablecer la contraseña',
+];

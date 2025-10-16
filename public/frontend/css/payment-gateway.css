@@ -1,0 +1,283 @@
+/**
+ * Payment Gateway Styles
+ * Custom styles for payment gateway selection and display
+ */
+
+/* Payment Gateway Cards */
+.gateway-card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 2px solid #e9ecef !important;
+    background: #fff;
+}
+
+.gateway-card:hover {
+    border-color: #007bff !important;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.1);
+    transform: translateY(-2px);
+}
+
+.gateway-card input[type="radio"]:checked + div,
+.gateway-card input[type="radio"]:checked ~ div {
+    color: #007bff;
+}
+
+.gateway-card input[type="radio"]:checked {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Online Gateway Styling */
+.gateway-card:not(.offline) {
+    border-left: 4px solid #28a745;
+}
+
+.gateway-card:not(.offline):hover {
+    border-left-color: #28a745;
+}
+
+/* Offline Gateway Styling */
+.gateway-card.offline {
+    border-left: 4px solid #ffc107;
+}
+
+.gateway-card.offline:hover {
+    border-left-color: #ffc107;
+}
+
+/* Gateway Icons */
+.gateway-card i {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+    color: #6c757d;
+}
+
+.gateway-card input[type="radio"]:checked ~ div i {
+    color: #007bff;
+}
+
+/* Gateway Name */
+.gateway-name {
+    font-weight: 500;
+    color: #495057;
+}
+
+.gateway-card input[type="radio"]:checked ~ div .gateway-name {
+    color: #007bff;
+    font-weight: 600;
+}
+
+/* Gateway Groups */
+.gateway-group h6 {
+    color: #495057;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+/* Transfer Details */
+.transfer-details {
+    white-space: pre-line;
+    line-height: 1.6;
+    color: #495057;
+}
+
+/* Payment Success/Failure Pages */
+.payment-success-section,
+.payment-failure-section {
+    padding: 60px 0;
+}
+
+.success-icon i,
+.failure-icon i {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+/* Order Details Cards */
+.order-details,
+.customer-info {
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    background: #f8f9fa;
+}
+
+.order-details h5,
+.customer-info h5 {
+    color: #495057;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+/* Action Buttons */
+.action-buttons .btn {
+    margin: 0.25rem;
+    min-width: 150px;
+}
+
+/* Loading State */
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .gateway-card {
+        padding: 1rem !important;
+    }
+    
+    .action-buttons .btn {
+        width: 100%;
+        margin: 0.25rem 0;
+    }
+    
+    .order-details,
+    .customer-info {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Gateway Status Badges */
+.gateway-status {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-radius: 0.25rem;
+}
+
+.gateway-status.enabled {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.gateway-status.disabled {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Payment Method Icons */
+.payment-method-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin-right: 1rem;
+}
+
+.payment-method-icon i {
+    font-size: 1.5rem;
+    color: #6c757d;
+}
+
+/* Form Validation */
+.gateway-card.error {
+    border-color: #dc3545 !important;
+    background-color: #f8d7da;
+}
+
+.gateway-card.error .gateway-name {
+    color: #721c24;
+}
+
+/* Animation for Gateway Selection */
+.gateway-card {
+    animation: fadeInUp 0.3s ease;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Payment Processing Animation */
+.payment-processing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.payment-processing .spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-right: 1rem;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Gateway Info Panel */
+#gateway-info {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+#gateway-info .alert {
+    margin-bottom: 0;
+}
+
+/* Proof Upload */
+#gateway-proof-upload {
+    margin-top: 1rem;
+}
+
+#gateway-proof-upload .form-control {
+    border: 2px dashed #dee2e6;
+    background: #fff;
+}
+
+#gateway-proof-upload .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Checkout Button */
+.checkout-button {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.checkout-button:hover {
+    background: linear-gradient(45deg, #0056b3, #004085);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+.checkout-button:disabled {
+    background: #6c757d;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+

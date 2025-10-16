@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Documentation | Complete E-commerce System</title>
+      <!--favicon icon-->
+      <link rel="icon" href="images/favicon.ico">
+      <meta name="description" content="Complete E-commerce system built with Laravel 10 featuring advanced functionality and comprehensive store management">
+      <meta name="author" content="Laravel E-commerce System">
+      <meta name="copyright" content="Laravel E-commerce System">
+      <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/theme.fonts.css">
+      <link rel="stylesheet" href="css/global-style.css">
+      <link rel="stylesheet" href="css/style.css">
+      <style>
+         body { font-family: 'Arial', sans-serif; }
+         .feature-list { list-style: none; padding: 0; }
+         .feature-list li { margin: 10px 0; padding: 10px; background: #f8f9fa; border-radius: 5px; }
+         .feature-list li:before { content: "✓ "; color: #28a745; font-weight: bold; }
+         .section-title { color: #007bff; border-bottom: 2px solid #007bff; padding-bottom: 10px; }
+         .highlight { background: #fff3cd; padding: 15px; border-radius: 5px; border-left: 4px solid #ffc107; }
+         .tech-badge { display: inline-block; background: #007bff; color: white; padding: 3px 8px; border-radius: 3px; font-size: 12px; margin: 2px; }
+      </style>
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="oh">
+            <div class="left-side">
+               <div class="left-content">
+                  <ul>
+                     <li><a href="#introduction" class="anchor">Introduction</a></li>
+                     <li><a href="#features" class="anchor">Key Features</a></li>
+                     <li><a href="#installation" class="anchor">Installation Guide</a></li>
+                     <li><a href="#admin" class="anchor">Admin Login Details</a></li>
+                     <li><a href="#frontend" class="anchor">Frontend Features</a></li>
+                     <li><a href="#backend" class="anchor">Admin Dashboard</a></li>
+                     <li><a href="#products" class="anchor">Product Management</a></li>
+                     <li><a href="#orders" class="anchor">Order Management</a></li>
+                     <li><a href="#users" class="anchor">User Management</a></li>
+                     <li><a href="#payment" class="anchor">Payment Gateways</a></li>
+                     <li><a href="#blog" class="anchor">Blog System</a></li>
+                     <li><a href="#messages" class="anchor">Message Management</a></li>
+                     <li><a href="#settings" class="anchor">General Settings</a></li>
+                     <li><a href="#security" class="anchor">Security Features</a></li>
+                     <li><a href="#support" class="anchor">Technical Support</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <!--right side-->
+         <div class="right-side">
+            <div class="right-content">
+               <!--id introduction-->
+               <div id="introduction" class="common_section">
+                  <h1 class="bit_title">Complete E-commerce System</h1>
+                  <div class="content-welcome">
+                     <h4>Complete E-commerce System Built with Laravel 10</h4>
+                     <p><strong>Created on: </strong> 2024</p>
+                     <p><strong>By: </strong> <a href="#" target="_blank">Laravel E-commerce Team</a></p><br>
+                     <div class="highlight">
+                        <p><strong>Complete E-commerce Solution</strong></p>
+                        <p>A comprehensive and modern e-commerce system that provides all the necessary tools for managing a successful online store. Built with the latest Laravel 10 technology featuring a modern and responsive user interface.</p>
+                        <p><strong>Technologies Used:</strong><br>
+                        <span class="tech-badge">Laravel 10</span>
+                        <span class="tech-badge">PHP 8.1+</span>
+                        <span class="tech-badge">MySQL</span>
+                        <span class="tech-badge">Bootstrap</span>
+                        <span class="tech-badge">jQuery</span>
+                        <span class="tech-badge">PayPal API</span>
+                        <span class="tech-badge">PWA Support</span>
+                        </p>
+                     </div>
+                     <p><strong>Technical Support: </strong><br> 
+                        For technical support, please contact us via email or create a support ticket.<br>
+                        We will respond to your inquiries as soon as possible.<br>
+                     </p><br>
+                     <p><strong>Feature Suggestions: </strong><br> 
+                        If you have any suggestions for system development, please contact us. We appreciate all suggestions that help improve the system.<br>
+                     </p>
+                  </div>
+               </div>
+               <!--id features-->
+               <div id="features" class="common_section">
+                  <h1 class="bit_title">Key Features</h1>
+                  <div class="content-welcome">
+                     <h3 class="section-title">Frontend Features</h3>
+                     <ul class="feature-list">
+                        <li><strong>Progressive Web App (PWA) Support</strong> - Install as mobile app</li>
+                        <li><strong>Modern & Responsive Design</strong> - Works on all devices</li>
+                        <li><strong>Shopping Cart & Wishlist</strong> - Complete shopping experience</li>
+                        <li><strong>Order Tracking</strong> - Real-time order status updates</li>
+                        <li><strong>SEO-Friendly URLs</strong> - Optimized for search engines</li>
+                        <li><strong>Product Reviews & Ratings</strong> - Customer feedback system</li>
+                        <li><strong>Advanced Product Search</strong> - Filter by category, price, brand</li>
+                        <li><strong>Social Login Integration</strong> - Google, Facebook, GitHub</li>
+                        <li><strong>Multi-level Comments</strong> - Blog and product discussions</li>
+                        <li><strong>Newsletter Subscription</strong> - Email marketing integration</li>
+                     </ul>
+
+                     <h3 class="section-title">Admin Dashboard Features</h3>
+                     <ul class="feature-list">
+                        <li><strong>Dashboard Analytics</strong> - Sales statistics, order counts, and revenue tracking</li>
+                        <li><strong>Product Management</strong> - Add, edit, delete products with categories and brands</li>
+                        <li><strong>Order Management</strong> - Process orders, update status, and manage shipping</li>
+                        <li><strong>User Management</strong> - View and manage customer accounts</li>
+                        <li><strong>Category Management</strong> - Organize products with hierarchical categories</li>
+                        <li><strong>Brand Management</strong> - Manage product brands and manufacturers</li>
+                        <li><strong>Banner Management</strong> - Create and manage promotional banners</li>
+                        <li><strong>Blog Management</strong> - Create and manage blog posts and categories</li>
+                        <li><strong>Review Management</strong> - Moderate customer reviews and ratings</li>
+                        <li><strong>Coupon System</strong> - Create discount codes and promotional offers</li>
+                        <li><strong>Settings Panel</strong> - Configure system-wide settings</li>
+                        <li><strong>Media Manager</strong> - Upload and manage images and files</li>
+                        <li><strong>Message Management</strong> - Handle customer contact messages</li>
+                        <li><strong>Notification System</strong> - Real-time notifications and alerts</li>
+                        <li><strong>Shipping Management</strong> - Configure shipping methods and rates</li>
+                        <li><strong>Income Charts</strong> - Visual revenue and sales analytics</li>
+                     </ul>
+
+                     <h3 class="section-title">User Dashboard Features</h3>
+                     <ul class="feature-list">
+                        <li><strong>Order History</strong> - Complete purchase history with tracking</li>
+                        <li><strong>Profile Management</strong> - Update personal information</li>
+                        <li><strong>Review System</strong> - Rate and review products</li>
+                        <li><strong>Wishlist Management</strong> - Save favorite products</li>
+                        <li><strong>Address Book</strong> - Multiple shipping addresses</li>
+                        <li><strong>Comment Management</strong> - Manage blog post comments</li>
+                        <li><strong>Password Change</strong> - Secure password update</li>
+                        <li><strong>Order Tracking</strong> - Track order status in real-time</li>
+                        <li><strong>PDF Downloads</strong> - Download order invoices</li>
+                     </ul>
+                  </div>
+               </div>
+
+               <!--id installation-->
+               <div id="installation" class="common_section installation">
+                  <h1 class="bit_title">Installation Guide</h1>
+                  <p>This system is built with <strong>Laravel Framework (Version 10.x)</strong></p>
+
+                  <h4>Server Requirements:</h4>  
+                  <ul>
+                  <li>PHP 8.1 or higher</li>
+                  <li>BCMath PHP Extension</li>
+                  <li>Ctype PHP Extension</li>
+                  <li>Fileinfo PHP Extension</li>
+                  <li>JSON PHP Extension</li>
+                  <li>Mbstring PHP Extension</li>
+                  <li>OpenSSL PHP Extension</li>
+                  <li>PDO PHP Extension</li>
+                  <li>Tokenizer PHP Extension</li>
+                  <li>XML PHP Extension</li>
+                  <li>MySQL 5.7+ or MariaDB 10.2+</li>
+                  <li>Composer</li>
+                  <li>Node.js & NPM</li>
+                  </ul>
+                  
+                  <h4>Installation Steps:</h4><br>
+                  <ul>
+                     <li><strong>Step 1: Clone/Download the Project</strong></li><br>
+                     <div>
+                        Download or clone the project files to your local development environment or server.
+                        <br>
+                        <code>git clone [repository-url]</code>
+                        <br>
+                        Or extract the downloaded ZIP file to your web server directory.
+                     </div>
+                     <br>
+
+                     <li><strong>Step 2: Install Dependencies</strong></li><br>
+                     <div>
+                        Navigate to the project directory and install PHP dependencies using Composer:
+                        <br>
+                        <code>composer install</code>
+                        <br>
+                        Install Node.js dependencies:
+                        <br>
+                        <code>npm install</code>
+                     </div>
+                     <br>
+
+                     <li><strong>Step 3: Environment Configuration</strong></li><br>
+                     <div>
+                        Copy the environment file and configure your settings:
+                        <br>
+                        <code>cp .env.example .env</code>
+                        <br>
+                        Generate application key:
+                        <br>
+                        <code>php artisan key:generate</code>
+                        <br>
+                        Update the <strong>.env</strong> file with your database credentials and other settings.
+                     </div>
+                     <br>
+
+                     <li><strong>Step 4: Database Setup</strong></li><br>
+                     <div>
+                        Create a MySQL database and run migrations:
+                        <br>
+                        <code>php artisan migrate --seed</code>
+                        <br>
+                        Or import the provided SQL file:
+                        <br>
+                        <code>Import database/e-shop.sql into your database</code>
+                     </div>
+                     <br>
+
+                     <li><strong>Step 5: Storage Setup</strong></li><br>
+                     <div>
+                        Create symbolic link for storage:
+                        <br>
+                        <code>php artisan storage:link</code>
+                        <br>
+                        Set proper permissions for storage and bootstrap/cache directories:
+                        <br>
+                        <code>chmod -R 775 storage bootstrap/cache</code>
+                     </div>
+                     <br>
+
+                     <li><strong>Step 6: Build Assets</strong></li><br>
+                     <div>
+                        Compile frontend assets:
+                        <br>
+                        <code>npm run dev</code>
+                        <br>
+                        Or for production:
+                        <br>
+                        <code>npm run build</code>
+                     </div>
+                     <br>
+
+                     <li><strong>Step 7: Run the Application</strong></li><br>
+                     <div>
+                        Start the development server:
+                        <br>
+                        <code>php artisan serve</code>
+                        <br>
+                        Open your browser and navigate to <strong>http://localhost:8000</strong>
+                     </div>
+                     <br>
+
+                     <li><strong>Step 8: Admin Access</strong></li><br>
+                     <div>
+                        Use the default admin credentials to access the admin panel:
+                        <br>
+                        <strong>Email:</strong> admin@gmail.com
+                        <br>
+                        <strong>Password:</strong> 1111
+                        <br>
+                        <strong>Admin URL:</strong> your-domain.com/login
+                     </div>
+                  </ul>
+               </div>
+
+               <!--id admin-->
+               <div id="admin" class="common_section">
+                  <h1 class="bit_title underline">Admin Login Details</h1>
+                  <div class="content-welcome">
+                     <p>You can manage every aspect of this system from the Admin panel including product management, order processing, user management, settings, and more.
+                        <br>
+                     <strong>Admin URL:</strong> your-domain.com/login <br>
+                     <strong>Email:</strong> admin@gmail.com <br>
+                     <strong>Password:</strong> 1111
+                     </p>
+                     <div class="highlight">
+                        <p><strong>Important:</strong> Please change the default admin password after first login for security purposes.</p>
+                     </div>
+                  </div>
+               </div>
+
+
+               <!--id frontend-->
+               <div id="frontend" class="common_section">
+                  <h1 class="bit_title underline">Frontend Features</h1>
+                  <div class="content-welcome">
+                     <h3 class="section-title">Customer-Facing Features</h3>
+                     <ul class="feature-list">
+                        <li><strong>Homepage</strong> - Featured products, banners, categories, and latest blog posts</li>
+                        <li><strong>Product Catalog</strong> - Grid and list view with filtering options</li>
+                        <li><strong>Product Details</strong> - Detailed product information with image gallery</li>
+                        <li><strong>Shopping Cart</strong> - Add/remove products with quantity management</li>
+                        <li><strong>Wishlist</strong> - Save favorite products for later purchase</li>
+                        <li><strong>User Registration/Login</strong> - Account creation and authentication</li>
+                        <li><strong>Social Login</strong> - Login with Google, Facebook, and GitHub</li>
+                        <li><strong>Checkout Process</strong> - Secure payment processing</li>
+                        <li><strong>Order Tracking</strong> - Real-time order status updates</li>
+                        <li><strong>Product Reviews</strong> - Customer ratings and feedback</li>
+                        <li><strong>Blog System</strong> - News and articles with comments</li>
+                        <li><strong>Search Functionality</strong> - Advanced product search with filters</li>
+                        <li><strong>Product Filtering</strong> - Filter by category, brand, price range</li>
+                        <li><strong>Newsletter Subscription</strong> - Email marketing integration</li>
+                        <li><strong>Contact Form</strong> - Customer support and inquiries</li>
+                        <li><strong>Responsive Design</strong> - Mobile-friendly interface</li>
+                        <li><strong>PWA Support</strong> - Install as mobile app</li>
+                     </ul>
+                  </div>
+               </div>
+
+               <!--id backend-->
+               <div id="backend" class="common_section">
+                  <h1 class="bit_title underline">Admin Dashboard</h1>
+                  <div class="content-welcome">
+                     <h3 class="section-title">Dashboard Overview</h3>
+                     <p>The admin dashboard provides comprehensive management tools for your e-commerce store:</p>
+                     <ul class="feature-list">
+                        <li><strong>Dashboard Analytics</strong> - Sales statistics, order counts, and revenue tracking</li>
+                        <li><strong>Product Management</strong> - Add, edit, delete products with categories and brands</li>
+                        <li><strong>Order Management</strong> - Process orders, update status, and manage shipping</li>
+                        <li><strong>User Management</strong> - View and manage customer accounts</li>
+                        <li><strong>Category Management</strong> - Organize products with hierarchical categories</li>
+                        <li><strong>Brand Management</strong> - Manage product brands and manufacturers</li>
+                        <li><strong>Banner Management</strong> - Create and manage promotional banners</li>
+                        <li><strong>Blog Management</strong> - Create and manage blog posts and categories</li>
+                        <li><strong>Review Management</strong> - Moderate customer reviews and ratings</li>
+                        <li><strong>Coupon System</strong> - Create discount codes and promotional offers</li>
+                        <li><strong>Settings Panel</strong> - Configure system-wide settings</li>
+                        <li><strong>Media Manager</strong> - Upload and manage images and files</li>
+                     </ul>
+                  </div>
+               </div>
+
+
+
+               <!--id products-->
+               <div id="products" class="common_section">
+                  <h1 class="bit_title underline">Product Management</h1>
+                  <div class="content-welcome">
+                     <h3 class="section-title">Product Features</h3>
+                     <ul class="feature-list">
+                        <li><strong>Product Creation</strong> - Add products with detailed descriptions, images, and specifications</li>
+                        <li><strong>Category Management</strong> - Organize products with hierarchical categories and subcategories</li>
+                        <li><strong>Brand Management</strong> - Associate products with brands and manufacturers</li>
+                        <li><strong>Inventory Management</strong> - Track stock levels and manage product availability</li>
+                        <li><strong>Product Variations</strong> - Support for different sizes, colors, and variants</li>
+                        <li><strong>Pricing Options</strong> - Set regular prices, discounts, and promotional pricing</li>
+                        <li><strong>Product Images</strong> - Multiple image support with gallery functionality</li>
+                        <li><strong>SEO Optimization</strong> - Custom meta titles, descriptions, and URLs</li>
+                        <li><strong>Product Status</strong> - Active/inactive status control</li>
+                        <li><strong>Featured Products</strong> - Highlight special products on homepage</li>
+                        <li><strong>Product Reviews</strong> - Customer rating and review system</li>
+                        <li><strong>Related Products</strong> - Suggest related items to customers</li>
+                        </ul>
+                  </div>
+               </div>
+
+               <!--id orders-->
+               <div id="orders" class="common_section">
+                  <h1 class="bit_title underline">Order Management</h1>
+                  <div class="content-welcome">
+                     <h3 class="section-title">Order Processing Features</h3>
+                     <ul class="feature-list">
+                        <li><strong>Order Tracking</strong> - Real-time order status updates</li>
+                        <li><strong>Order History</strong> - Complete order history for customers and admin</li>
+                        <li><strong>Order Status Management</strong> - Update order status (pending, processing, shipped, delivered)</li>
+                        <li><strong>Shipping Management</strong> - Configure shipping methods and rates</li>
+                        <li><strong>Order Details</strong> - Detailed order information with customer data</li>
+                        <li><strong>PDF Invoice Generation</strong> - Generate and download order invoices</li>
+                        <li><strong>Order Notifications</strong> - Email notifications for order updates</li>
+                        <li><strong>Order Analytics</strong> - Sales reports and order statistics</li>
+                        <li><strong>Customer Communication</strong> - Send messages to customers about orders</li>
+                        <li><strong>Order Search</strong> - Search orders by various criteria</li>
+                        <li><strong>Order Tracking by Number</strong> - Public order tracking system</li>
+                        <li><strong>Income Charts</strong> - Visual revenue analytics</li>
+                        <li><strong>Order Export</strong> - Export order data for external processing</li>
+                        </ul>
+                  </div>
+               </div>
+
+               <!--id users-->
+               <div id="users" class="common_section">
+                  <h1 class="bit_title underline">User Management</h1>
+                  <div class="content-welcome">
+                     <h3 class="section-title">User Account Features</h3>
+                     <ul class="feature-list">
+                        <li><strong>User Registration</strong> - Customer account creation with email verification</li>
+                        <li><strong>User Authentication</strong> - Secure login system with password protection</li>
+                        <li><strong>Profile Management</strong> - Users can update personal information</li>
+                        <li><strong>Address Book</strong> - Multiple shipping and billing addresses</li>
+                        <li><strong>Order History</strong> - Complete purchase history for each user</li>
+                        <li><strong>Wishlist Management</strong> - Save favorite products for later</li>
+                        <li><strong>Review System</strong> - Users can rate and review products</li>
+                        <li><strong>Social Login</strong> - Login with Google, Facebook, and GitHub</li>
+                        <li><strong>Password Reset</strong> - Secure password recovery system</li>
+                        <li><strong>User Roles</strong> - Admin and customer role management</li>
+                        <li><strong>Account Status</strong> - Enable/disable user accounts</li>
+                        <li><strong>User Analytics</strong> - Track user activity and engagement</li>
+                     </ul>
+                  </div>
+               </div>
+
+               <!--id payment-->
+               <div id="payment" class="common_section">
+                  <h1 class="bit_title underline">Payment Gateways</h1>
+                  <div class="content-welcome">
+                     <h3 class="section-title">Payment Integration</h3>
+                     <ul class="feature-list">
+                        <li><strong>PayPal Integration</strong> - Secure PayPal payment processing</li>
+                        <li><strong>Multiple Payment Methods</strong> - Support for various payment options</li>
+                        <li><strong>Secure Transactions</strong> - SSL encryption for all payment data</li>
+                        <li><strong>Payment Status Tracking</strong> - Real-time payment confirmation</li>
+                        <li><strong>Refund Management</strong> - Process refunds through admin panel</li>
+                        <li><strong>Payment History</strong> - Complete transaction records</li>
+                        <li><strong>Currency Support</strong> - Multi-currency payment processing</li>
+                        <li><strong>Payment Notifications</strong> - Email confirmations for payments</li>
+                        <li><strong>Test Mode</strong> - Sandbox environment for testing</li>
+                        <li><strong>Payment Analytics</strong> - Revenue and transaction reports</li>
+                        <li><strong>Invoice Generation</strong> - Automatic invoice creation</li>
+                        <li><strong>Payment Security</strong> - PCI compliance and fraud protection</li>
+                     </ul>
+                  </div>
+               </div>
+
+
+               <!--id blog-->
+               <div id="blog" class="common_section">
+                  <h1 class="bit_title underline">Blog System</h1>
+                  <div class="content-welcome">
+                     <h3 class="section-title">Content Management Features</h3>
+                     <ul class="feature-list">
+                        <li><strong>Blog Posts</strong> - Create and manage blog articles</li>
+                        <li><strong>Post Categories</strong> - Organize blog posts with categories</li>
+                        <li><strong>Post Tags</strong> - Tag system for better content organization</li>
+                        <li><strong>Comments System</strong> - Multi-level comment functionality</li>
+                        <li><strong>Comment Management</strong> - Moderate and manage comments</li>
+                        <li><strong>Rich Text Editor</strong> - WYSIWYG editor for content creation</li>
+                        <li><strong>SEO Optimization</strong> - Meta tags and SEO-friendly URLs</li>
+                        <li><strong>Featured Images</strong> - Support for post thumbnails and galleries</li>
+                        <li><strong>Post Status</strong> - Draft, published, and scheduled posts</li>
+                        <li><strong>Author Management</strong> - Multiple authors support</li>
+                        <li><strong>Blog Search</strong> - Search functionality for blog content</li>
+                        <li><strong>Blog Filtering</strong> - Filter posts by category and tags</li>
+                        <li><strong>Social Sharing</strong> - Share posts on social media</li>
+                        <li><strong>RSS Feed</strong> - Automatic RSS feed generation</li>
+                     </ul>
+                  </div>
+               </div>
+
+               <!--id messages-->
+               <div id="messages" class="common_section">
+                  <h1 class="bit_title underline">Message Management</h1>
+                  <div class="content-welcome">
+                     <h3 class="section-title">Customer Communication Features</h3>
+                     <ul class="feature-list">
+                        <li><strong>Contact Form</strong> - Customer inquiry and support form</li>
+                        <li><strong>Message Inbox</strong> - Centralized message management</li>
+                        <li><strong>Message Categories</strong> - Organize messages by type</li>
+                        <li><strong>Message Status</strong> - Track message read/unread status</li>
+                        <li><strong>Quick Reply</strong> - Fast response to customer inquiries</li>
+                        <li><strong>Message Search</strong> - Find specific messages quickly</li>
+                        <li><strong>Customer Information</strong> - View sender details and history</li>
+                        <li><strong>Message Export</strong> - Export messages for record keeping</li>
+                        <li><strong>Auto-Response</strong> - Automatic acknowledgment messages</li>
+                        <li><strong>Message Templates</strong> - Pre-written response templates</li>
+                        <li><strong>Priority System</strong> - Mark urgent messages</li>
+                        <li><strong>Message Archive</strong> - Store old messages for reference</li>
+                     </ul>
+                  </div>
+               </div>
+
+               <!--id settings-->
+               <div id="settings" class="common_section">
+                  <h1 class="bit_title underline">General Settings</h1>
+                  <div class="content-welcome">
+                     <h3 class="section-title">System Configuration</h3>
+                     <ul class="feature-list">
+                        <li><strong>Site Information</strong> - Configure site name, description, and contact details</li>
+                        <li><strong>Email Settings</strong> - SMTP configuration for email notifications</li>
+                        <li><strong>Currency Settings</strong> - Set default currency and exchange rates</li>
+                        <li><strong>Shipping Configuration</strong> - Set up shipping methods and rates</li>
+                        <li><strong>Tax Settings</strong> - Configure tax rates and rules</li>
+                        <li><strong>Coupon Management</strong> - Create and manage discount codes</li>
+                        <li><strong>Banner Management</strong> - Manage promotional banners</li>
+                        <li><strong>Social Media Links</strong> - Configure social media integration</li>
+                        <li><strong>Analytics Integration</strong> - Google Analytics and tracking codes</li>
+                        <li><strong>Password Change</strong> - Admin password management</li>
+                        <li><strong>Cache Management</strong> - Clear system cache</li>
+                        <li><strong>Storage Link</strong> - Manage file storage links</li>
+                        <li><strong>Maintenance Mode</strong> - Enable/disable maintenance mode</li>
+                     </ul>
+                  </div>
+               </div>
+
+               <!--id security-->
+               <div id="security" class="common_section">
+                  <h1 class="bit_title underline">Security Features</h1>
+                  <div class="content-welcome">
+                     <h3 class="section-title">Security & Protection</h3>
+                     <ul class="feature-list">
+                        <li><strong>Password Protection</strong> - Secure password hashing and validation</li>
+                        <li><strong>CSRF Protection</strong> - Cross-site request forgery protection</li>
+                        <li><strong>SQL Injection Prevention</strong> - Parameterized queries and input validation</li>
+                        <li><strong>XSS Protection</strong> - Cross-site scripting prevention</li>
+                        <li><strong>SSL/HTTPS Support</strong> - Secure data transmission</li>
+                        <li><strong>File Upload Security</strong> - Secure file upload with validation</li>
+                        <li><strong>Session Management</strong> - Secure session handling</li>
+                        <li><strong>Rate Limiting</strong> - API and form submission rate limiting</li>
+                        <li><strong>Input Validation</strong> - Comprehensive input sanitization</li>
+                        <li><strong>Error Handling</strong> - Secure error messages and logging</li>
+                        <li><strong>Admin Authentication</strong> - Secure admin panel access</li>
+                        <li><strong>Data Encryption</strong> - Sensitive data encryption</li>
+                     </ul>
+                  </div>
+               </div>
+               
+               <!--id support-->
+               <div id="support" class="common_section">
+                  <h1 class="bit_title">Technical Support</h1>
+                  <div class="content-welcome">
+                     <h3 class="section-title">Getting Help</h3>
+                     <p>
+                        <strong>Need Technical Support?</strong> <br>
+                        For technical support and assistance, please contact us through the following channels:
+                     </p>
+                     <ul class="feature-list">
+                        <li><strong>Email Support</strong> - Send detailed questions to our support team</li>
+                        <li><strong>Documentation</strong> - Comprehensive guides and tutorials</li>
+                        <li><strong>Community Forum</strong> - Connect with other users and developers</li>
+                        <li><strong>Video Tutorials</strong> - Step-by-step video guides</li>
+                        <li><strong>Bug Reports</strong> - Report issues and get fixes</li>
+                        <li><strong>Feature Requests</strong> - Suggest new features and improvements</li>
+                     </ul>
+                     <div class="highlight">
+                        <p><strong>Response Time:</strong> We typically respond to support requests within 24-48 hours during business days.</p>
+                        <p><strong>Documentation:</strong> Please check the documentation first as most common questions are answered there.</p>
+                     </div>
+                     <p>
+                        <strong>Contact Information:</strong><br>
+                        Email: support@example.com<br>
+                        Website: <a href="#" target="_blank">www.example.com</a><br>
+                        GitHub: <a href="#" target="_blank">github.com/example</a>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="js/jquery-1.11.3.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/main.js"></script>
+      <script>
+         $(".anchor").on("click", function(event) {
+             var target = $($(this).attr("href"));
+         
+             if (target.length) {
+                 event.preventDefault();
+                 $("html, body").animate({
+                     scrollTop: target.offset().top - 0 + 'px'
+                 }, 1000);
+             }
+         });
+         
+         $(".left-content>ul>li").on("click", function() {
+             $(this).children(".dropdown").slideToggle();
+             $(this).siblings("li").children(".dropdown").slideUp();
+         });
+         $(".left-content .dropdown li ").on("click", function(e) {
+             e.stopPropagation();
+         });
+         
+      </script>
+   </body>
+</html>

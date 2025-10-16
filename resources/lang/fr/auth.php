@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'failed' => 'Ces identifiants ne correspondent pas à nos enregistrements.',
+    'password' => 'Le mot de passe fourni est incorrect.',
+    'throttle' => 'Trop de tentatives de connexion. Veuillez réessayer dans :seconds secondes.',
+    // UI translations for auth views
+    'title_login' => 'E-SHOP || Connexion',
+    'welcome_back' => 'Bon retour !',
+    'enter_email' => 'Entrez l\'adresse e-mail...',
+    'password' => 'Mot de passe',
+    'remember_me' => 'Se souvenir de moi',
+    'login' => 'Connexion',
+    'forgot_password_question' => 'Mot de passe oublié ?',
+    'register' => 'S\'inscrire',
+    'name' => 'Nom',
+    'email_address' => 'Adresse e-mail',
+    'confirm_password' => 'Confirmer le mot de passe',
+    'verify_email' => 'Vérifiez votre adresse e-mail',
+    'verification_sent' => 'Un nouveau lien de vérification a été envoyé à votre adresse e-mail.',
+    'before_check_email' => "Avant de continuer, veuillez vérifier votre e-mail pour un lien de vérification.",
+    'if_not_received' => 'Si vous n\'avez pas reçu l\'e-mail',
+    'click_request_another' => 'cliquez ici pour en demander un autre',
+    'title_forgot_password' => 'E-SHOP || Réinitialiser le mot de passe',
+    'forgot_password' => 'Mot de passe oublié ?',
+    'forgot_password_instructions' => 'Entrez votre e-mail et nous vous enverrons un lien pour réinitialiser votre mot de passe.',
+    'already_have_account' => 'Vous avez déjà un compte ? Connexion !',
+    'please_confirm_password' => 'Veuillez confirmer votre mot de passe avant de continuer.',
+    'reset_password' => 'Réinitialiser le mot de passe',
+    'send_password_reset_link' => 'Envoyer le lien de réinitialisation du mot de passe',
+];
